@@ -30,6 +30,10 @@ export default function Loginscreen() {
             Login
           </h2>
 
+          <h1>User Credentials</h1>
+          <h1>Email : user1@gmail.com</h1>
+          <h1>Password : user123</h1>
+
           {loading && <Loading />}
           {error && <Error error="Invalid Credentials" />}
 
